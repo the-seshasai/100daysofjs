@@ -1,0 +1,65 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+nav {
+  padding: 20px;
+  height: 10vh;
+  display: block;
+  position: relative;
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+h1 {
+  display: inline;
+  color: rgb(255, 127, 0);
+}
+h3 {
+  display: inline;
+  margin-left: 10px;
+}
+.container {
+  display: inline;
+  margin: 0 500px;
+}
+h3:hover {
+  color: aqua;
+  cursor: pointer;
+}
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&display=swap");
+.container1 {
+  background: rgba(0, 0, 0);
+  width: 500px;
+  margin: 200px auto;
+  padding: 50px;
+  text-align: center;
+  border-radius: 60px;
+  color: white;
+}
+p {
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+}
+button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  padding: 5px;
+  margin: 20px auto 0 auto;
+  background-color: rgb(0, 225, 0);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.display {
+  height: 90vh;
+  width: 100%;
+  padding: 1px;
+  background-color: beige;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
