@@ -12,15 +12,15 @@ main {
   text-align: center;
   width: 50%;
 }
-.title {
-  width: 30%;
+#title {
+  width: 50%;
   padding: 10px;
   border-bottom: 5px solid lightskyblue;
   margin: 0 auto;
   text-align: center;
   overflow: hidden;
   font-family: "Roboto Mono", monospace;
-  letter-spacing: 0.2rem;
+  letter-spacing: 2px;
 }
 .container {
   margin: 20px auto 0 auto;
@@ -33,5 +33,32 @@ main {
   font-weight: bolder;
 }
 .mar {
-  margin-top: 5px;
+  margin-top: 20px;
+}
+.Designation {
+  color: rgb(6, 126, 201);
+}
+.btns {
+  display: flex;
+  width: 100px;
+  margin: 20px auto;
+  text-align: center;
+  justify-content: space-between;
+}
+.btns button,
+.surprise button {
+  border-color: rgb(6, 126, 201);
+  color: rgb(6, 126, 201);
+  background-color: inherit;
+  font-size: 1rem;
+  padding: 5px;
+}
+.btns button {
+  border: none;
+  font-size: 2rem;
+}
+.container img {
+  width: 50%;
+  height: 160px;
+  border-radius: 50%;
 }
